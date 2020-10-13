@@ -1,0 +1,46 @@
+Algoritmo "Calculadora"
+//
+//
+// Data atual  : 08/10/2020
+Var
+// Seção de Declarações das variáveis
+ op : caractere
+ N1 , N2 , R : real
+ r1:real
+ r2:real
+ r3:real
+ r4:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+  Escreval ("Bem vindo a calculadora do Senhor(a)!")
+  Escreva ("Digite o primeiro valor: ")
+  Leia (N1)
+  escreva ("Digite o segundo valor: ")
+  Leia (N2)
+  escreva ("Digite a operação +,-,*,/: ")
+  Leia (op)
+       se op="+" entao
+       r1<- N1+N2
+
+  escreval  (r1)
+  fimse
+       se op="-" entao
+       r2<-N1-N2
+escreval(r2)
+fimse
+       se op="*" entao
+            r3<- N1*N2
+escreval (r3)
+fimse
+       se op="/" entao
+            r4<-N1/N2
+escreval(r4)
+fimse
+
+
+
+
+
+
+Fimalgoritmo
